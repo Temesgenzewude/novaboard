@@ -15,6 +15,7 @@ import {
   Search,
   Settings,
   User2,
+  Users,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,6 +43,12 @@ const items = [
     title: "Home",
     url: "/",
     icon: Home,
+  },
+
+  {
+    title: "Users",
+    url: "/users/",
+    icon: Users,
   },
 
   {
